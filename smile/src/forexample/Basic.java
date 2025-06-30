@@ -36,7 +36,6 @@ public class Basic {
         System.out.println(TestScores.length);
 
         String gname = "Smile";
-        String rname = "Syunya Doi";
         System.out.println("I am " + gname);
 
     }

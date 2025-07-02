@@ -49,6 +49,9 @@ public class FizzBuzzExample {
      * @param num: inputNumber
      */
     private static void stdoutFizzBuzzResult(int num) {
+        // if~elseの量が増えるとわかりづらくなるので、ifの中で速攻リターンする手法もあり。
+        // アーリーリターンパターンと呼ばれる
+        // https://zenn.dev/media_engine/articles/early_return
         if (num % 15 == 0) {
             System.out.println("FizzBuzz");
             return;

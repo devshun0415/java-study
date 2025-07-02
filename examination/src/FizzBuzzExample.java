@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 /**
- * Scannerで最大値を任意で指定できるようにした + 入力検証処理を追加したFizzBuzz29
+ * Scannerで最大値を任意で指定できるようにした + 入力検証処理を追加したFizzBuzz
  * MEMO
  * try catch
  *   try: 正常系処理を書く
